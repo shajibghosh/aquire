@@ -1,0 +1,16 @@
+{
+  "name": "aquire",
+  "version": "1.0.3",
+  "private": true,
+  "description": "Offline searchable quantum computing taxonomy and bibliography",
+  "license": "MIT",
+  "scripts": {
+    "test": "node tests/browser-smoke.cjs"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "playwright": "1.58.2"
+  }
+}

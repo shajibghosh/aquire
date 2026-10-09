@@ -1,0 +1,23 @@
+name: Resource correction or addition
+description: Suggest a sourced catalog change
+title: "[Resource] "
+body:
+  - type: input
+    id: identifier
+    attributes:
+      label: Existing resource ID or proposed title
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: DOI or first-party source URL
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Correction or addition and topic evidence
+      description: Include source metadata, proposed topic, and retrieval date where relevant.
+    validations:
+      required: true

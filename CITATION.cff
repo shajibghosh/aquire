@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this project when using the atlas. Cite indexed publications separately."
+type: software
+title: "AQuIRE: Awesome Quantum Information Research Explorer"
+version: 1.0.3
+date-released: 2026-10-08
+authors:
+  - name: "AQuIRE: Awesome Quantum Information Research Explorer contributors"
+abstract: "An offline searchable quantum computing taxonomy and bibliography with 1,600 resources, 30 categories, 164 topics, reading paths, and reference document exports."
+license: MIT
+keywords:
+  - quantum computing
+  - quantum information
+  - bibliography
+  - research resources
+  - taxonomy

@@ -1,0 +1,17 @@
+name: Explorer bug
+description: Report a reproducible interface or build problem
+title: "[Bug] "
+body:
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Include filters, expected behavior, and observed behavior.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser, operating system, and project version
+    validations:
+      required: true
